@@ -16,7 +16,7 @@ class TasksScreen extends StatelessWidget {
               context: context, builder: (context) => AddTaskScreen());
         },
         backgroundColor: Colors.lightBlueAccent,
-        child: Icon(Icons.add),
+        child: Icon(Icons.add,size: 45,),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -28,7 +28,7 @@ class TasksScreen extends StatelessWidget {
               CircleAvatar(
                 child: Icon(
                   Icons.list,
-                  size: 30,
+                  size: 45,
                   color: Colors.lightBlueAccent,
                 ),
                 backgroundColor: Colors.white,
